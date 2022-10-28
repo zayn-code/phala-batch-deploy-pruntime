@@ -11,7 +11,8 @@
 ```shell
 git clone git@github.com:zayn-code/phala-batch-deploy-pruntime.git
 ```
-2. 进入目录，配置main.sh 里的config参数（参数都有注释）
+2. 进入目录，先配置main.sh 里的config参数（参数都有注释）
+![config.ing](wiki/config.png)
 ```shell
 cd phala-batch-deploy-pruntime
 vim main.sh
@@ -21,7 +22,7 @@ vim main.sh
 bash main.sh
 ```
 执行成功后会出现交互界面 根据提示选择自己要执行操作的序号即可。如下图
-![img.png](wiki/main.png)
+![main.png](wiki/main.png)
 
 
 ### 如果该项目对您有所帮助，希望您动动小手点个star
